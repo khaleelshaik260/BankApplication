@@ -41,7 +41,7 @@ public class LoginForm extends javax.swing.JFrame {
 
     private final UserRepository userRepository;
     private final CustomerRepository customerRepository;
-    
+    //java changes
     public LoginForm()
     {
         this.userRepository = (UserRepository) new RepositoryFactory().getInstance("user");
